@@ -1,0 +1,17 @@
+name: Weekly Security Audit
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"  # Every Monday at 8:00 UTC
+  workflow_dispatch:
+
+jobs:
+  audit:
+    name: Dependency Audit
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - run: cargo install cargo-deny --locked
+      - run: cargo deny check advisories
