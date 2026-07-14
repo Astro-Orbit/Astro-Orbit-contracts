@@ -182,7 +182,7 @@ checksum = "d3fb67a6e08acf24fdeccbac2cb6ac4305825bd1f117462e0e6f2f193345ad56"
 
 [[package]]
 name = "astro-orbit-deployment"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "astro-orbit-shared",
  "soroban-sdk",
@@ -190,7 +190,7 @@ dependencies = [
 
 [[package]]
 name = "astro-orbit-organization"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "astro-orbit-shared",
  "soroban-sdk",
@@ -198,7 +198,7 @@ dependencies = [
 
 [[package]]
 name = "astro-orbit-permissions"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "astro-orbit-shared",
  "soroban-sdk",
@@ -206,7 +206,7 @@ dependencies = [
 
 [[package]]
 name = "astro-orbit-project"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "astro-orbit-shared",
  "soroban-sdk",
@@ -214,7 +214,7 @@ dependencies = [
 
 [[package]]
 name = "astro-orbit-registry"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "astro-orbit-shared",
  "soroban-sdk",
@@ -222,7 +222,7 @@ dependencies = [
 
 [[package]]
 name = "astro-orbit-shared"
-version = "0.1.0"
+version = "0.2.0"
 dependencies = [
  "soroban-sdk",
 ]
